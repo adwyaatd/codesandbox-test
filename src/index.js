@@ -27,3 +27,6 @@ console.log(val5);
 
 val5[0] = "bird";
 val5.push("monkey");
+
+const message1 = `私の名前は${val4.name}です。年齢は${val4.age}歳です。`;
+console.log(message1);
