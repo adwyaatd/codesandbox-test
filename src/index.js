@@ -30,3 +30,20 @@ val5.push("monkey");
 
 const message1 = `私の名前は${val4.name}です。年齢は${val4.age}歳です。`;
 console.log(message1);
+
+const func1 = function (str) {
+  return str;
+};
+console.log(func1("func1です"));
+
+const func2 = (str) => str;
+console.log(func2("func2です"));
+
+const func2_2 = (str) => {
+  return str;
+};
+
+console.log(func2_2("2-2です"));
+
+const func3 = (num1, num2) => num1 + num2;
+console.log(func3(2, 3));
