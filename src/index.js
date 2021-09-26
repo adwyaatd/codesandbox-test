@@ -62,3 +62,23 @@ const sayhello = (name = "ゲスト") =>
   console.log(`こんにちは！　${name}さん！！`);
 
 sayhello("田中");
+
+const arr1 = [3, 9, 100];
+const sumfunc = (num1, num2) => console.log(num1 + num2);
+// sumfunc(arr1[0],arr1[1]);
+sumfunc(...arr1);
+
+const arr2 = [1, 2, 3, 4, 5];
+const [num1, num2, ...arr3] = arr2;
+console.log(arr3);
+
+const arr4 = [10, 20];
+const arr5 = [30, 40];
+
+const arr6 = [...arr4];
+arr6[0] = 100;
+console.log(arr6);
+console.log(arr4);
+
+const arr7 = [...arr4, ...arr5];
+console.log(arr7);
