@@ -57,3 +57,8 @@ const myp2 = ["raimu", 29];
 const [n, a] = myp2;
 const msg2 = `name:${n},age:${a}`;
 console.log(msg2);
+
+const sayhello = (name = "ゲスト") =>
+  console.log(`こんにちは！　${name}さん！！`);
+
+sayhello("田中");
