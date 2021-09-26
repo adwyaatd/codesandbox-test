@@ -47,3 +47,13 @@ console.log(func2_2("2-2です"));
 
 const func3 = (num1, num2) => num1 + num2;
 console.log(func3(2, 3));
+
+const myp1 = { name: "来夢", age: 29 };
+const { name, age } = myp1;
+const msg = `name:${name},age:${age}`;
+console.log(msg);
+
+const myp2 = ["raimu", 29];
+const [n, a] = myp2;
+const msg2 = `name:${n},age:${a}`;
+console.log(msg2);
