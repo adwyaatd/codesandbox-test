@@ -94,3 +94,14 @@ const newnamearr = namearr1.map((name) => {
   }
 });
 console.log(newnamearr);
+
+const num = "1330";
+const formattednum =
+  typeof num === "number"
+    ? num.toLocaleString()
+    : "すうちをにゅうりょくしてください";
+console.log(formattednum);
+
+const checkUnder100 = (num1, num2) =>
+  num1 + num2 > 100 ? "100を超えています" : "許容範囲内です";
+console.log(checkUnder100(1, 200));
